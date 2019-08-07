@@ -1,2 +1,2 @@
 # Eccomerce-Project
-Online Ecommerce Site
+Online Eccommerce Site
