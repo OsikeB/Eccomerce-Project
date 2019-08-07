@@ -1,0 +1,1347 @@
+@import url(font-awesome.min.css);
+
+
+
+/*Style for Header*/
+
+/*body { padding-top: 70px; }*/
+
+body{
+    font-size: 8px;
+    padding-top: 5px;
+}
+header .navbar-default {
+    background-color: #2c2c2c;
+    border-color: transparent;
+}
+.navbar-nav{
+    margin-left: 300px;
+}
+#home .navbar-nav{
+    margin-left: 150px;
+}
+header figcaption{
+    /*  position: relative;*/
+    bottom: 54px;
+    left:100px;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.logo> .navbar-nav{
+    margin-top: 16px;
+}
+
+.logo> .navbar-nav >li{
+    padding-right: 10px;
+
+}
+
+.navbar-nav > li > a {
+    padding-top: 2px;
+    padding-bottom: 0px;
+}
+.logo> figure{
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a{
+    color: #ffffff;
+    background-color: transparent;
+    border-bottom: 1px solid #f8e1b4;
+    padding: 0 0 0 0;
+}
+
+.navbar-default .navbar-nav > .active > a:hover{
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #9c5825;
+
+    /* border-bottom: 2px solid #f8e1b4;*/
+}
+
+/*******2nd Navbar*****/
+#home ul a{
+    color: #FFFFFF;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#home ul {
+    border: 1px solid #FFFFFF;
+    padding-bottom: 9px;
+}
+#home .nav  > li > a:hover{
+    color: #9c5825;
+}
+
+
+#searchBox{
+    width: 300px;
+    float: right;
+}
+/*Global CSS*/
+
+h1, h2, h3, h4,  h6, p, figure{
+    margin: 0;
+}
+
+h5{
+    color: #787878;
+    background-color: #ffffff;
+    font-size: 42px;
+  /*  font-weight: bold;*/
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+h6{
+    color: #3b3b3b;
+    font-size: 30px;
+    /*font-weight: bold;*/
+    /*text-align: center;*/
+}
+/*Featured Section Starts*/
+
+#featured> .container > .row > .col-md-4>.featuredText{
+    padding: 35px 15px;
+}
+#featured> .container{
+    background-color: #363636;
+}
+
+#featured> .container  h4{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+#featured> .container p{
+    font-size: 9px;
+    color:  #ffffff;
+    line-height: 1em;
+}
+
+#featured > .container .col-md-2> .pull-right{
+    color: #aa602a;
+}
+
+
+
+/*
+Discover Section Starts*/
+
+#discover a {
+    color: orange;
+    text-decoration: none;
+}
+
+#discover figcaption {
+    background-color: #ffffff;
+    padding: 15px 15px 20px;
+   /* border: 1px solid #e3e3e3;*/
+}
+#discover  figcaption > p {
+    font-size: 20px;
+    line-height: 1.7em;
+}
+
+#discover .col-md-4 h6{
+    color: #3b3b3b;
+    font-size: 18.95px;
+}
+
+#discover .col-md-4 p{
+    color: #3b3b3b;
+    font-size: 12.63px;
+}
+
+#discover .col-md-12 h6{
+    color: #3b3b3b;
+    font-size: 14.47px;
+}
+
+#discover .col-md-12 p{
+    color: #3b3b3b;
+    font-size: 9.65px;
+}
+
+/*
+Bike Section Starts*/
+#bike .container{
+    background-image:url("../img/layer6.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+#bike .container .row h4{
+    color: #f4f4f4;
+    font-size: 20px;
+    text-align: center;
+
+
+
+}
+
+#bike .container .row p{
+    color: #f4f4f4;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*Products Section Starts*/
+
+h4{
+    color: #4b4b4b;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+}
+#products .container p{
+    color: #5e5e5e;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#products figure{
+    background-color: #ffffff;
+    padding: 15px 15px 20px;
+    border: 1px solid #e3e3e3;
+}
+#products figure > figcaption > h5{
+    font-size: 20px;
+    color: #4b4b4b;
+}
+#products figure > figcaption > p{
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+/*Selling Section Starts*/
+
+h3{
+    color: #4b4b4b;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+}
+#selling .container p{
+    color: #5e5e5e;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#selling figure{
+    background-color: #ffffff;
+    padding: 15px 15px 20px;
+    border: 1px solid #e3e3e3;
+}
+#selling figure > figcaption > h5{
+    font-size: 20px;
+    color: #4b4b4b;
+}
+#selling figure > figcaption > p{
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+/*SellingO Section Starts*/
+
+#sellingN figure{
+    background-color: #ffffff;
+    padding: 15px 15px 20px;
+    border: 1px solid #e3e3e3;
+}
+#sellingN figure > figcaption > h5{
+    font-size: 20px;
+    color: #4b4b4b;
+}
+#sellingN figure > figcaption > p{
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+/*Desinger Section Starts*/
+
+h2{
+    color: #4b4b4b;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+}
+#desinger  .container p{
+    color: #5e5e5e;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#desinger figure{
+    background-color: #ffffff;
+    padding: 15px 15px 20px;
+    border: 1px solid #e3e3e3;
+}
+
+/*
+Progress Bar Section Stars*/
+#progressBar .container .row{
+    padding-top: 50px;
+}
+#progressBar #pro p{
+    font-size: 15px;
+}
+
+/*
+Customer Section Stars*/
+#customer >h2{
+    font-size: 24px;
+    color: #363636;
+}
+
+#customer .container .row >p{
+    font-size: 18px;
+    color: #363636;
+    text-align: center;
+}
+#customer .container .row  div >h5{
+    font-size: 36px;
+    color: #ffffff;
+    text-align: left;
+    display: inline-block;
+    background-color: transparent;
+
+}
+#customer .container .row  div >p{
+    font-size: 24px;
+    color: #ffffff;
+
+}
+#customer .container .row  div{
+    font-size: 24px;
+    display: block;
+    background-color: #9c9d9c;
+    top: 100px;
+}
+#customer .container .row  div{
+    position: relative;
+}
+#customer .container .row  div img{
+    position: absolute;
+    top: -92px;
+    left: 420px;
+}
+
+#customer .container .row  div ul{
+    position: absolute;
+    top:  31px;
+    left: 598px;
+}
+
+#customer .nav > li > a{
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 9px;
+    margin-right: 9px;
+    color: #f07e1d;
+
+
+}
+
+/*Blog Section Starts*/
+#blog{
+    padding-top: 250px;
+}
+#blog h5{
+    font-size: 24px;
+    font-weight: bold;
+    color: #5e5e5e;
+    text-align: center;
+
+
+}
+#blog  p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #5e5e5e;
+    text-align: center;
+}
+
+/*Ecommerce Section Starts*/
+#ecommerce{
+    background-color: #363636;
+}
+#ecommerce .container .row figure{
+    float: left;
+    padding-top: 20px;
+    padding-left: 488px;
+}
+
+#ecommerce figure p{
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+#ecommerce .container .row .text {
+    padding-top: 135px;
+
+}
+
+#ecommerce .container .row .icon{
+    color: #fff;
+
+}
+
+#ecommerce .container .row .icon{
+    float: right;
+    padding-right: 180px;
+
+}
+#ecommerce p{
+    color: #fff;
+    text-align: center;
+}
+
+#ecommerce h2{
+    color: #fff;
+    font-size: 20px;
+    float: left;
+
+}
+#ecommerce .col-md-4 p{
+    font-size: 17px;
+
+}
+#ecommerce .col-md-2 p{
+    font-size: 17px;
+    float: left;
+}
+
+#subscribe{
+    width: 500px;
+}
+
+#subscribe > .input-group> .form-control{
+    background-color: transparent;
+}
+#subscribe .btn-default{
+    color: #f07e1d;
+    background-color: transparent;
+}
+/*
+Footer Section Starts*/
+footer{
+    background-color: #151515;
+}
+
+footer p{
+    color: #fff;
+    padding: 20px 120px ;
+}
+
+footer p >span{
+    color: #f07e1d;
+}
+footer{
+    position: relative;
+}
+footer .img{
+    position: absolute;
+    top: 5px;
+    right: 285px;
+    /* float: right;
+     padding-top: 5px;*/
+}
+
+
+
+/*Style for Header*/
+
+/*body { padding-top: 70px; }*/
+
+body{
+    font-size: 8px;
+    padding-top: 5px;
+}
+header .navbar-default {
+    background-color: #2c2c2c;
+
+}
+#head{
+    overflow: hidden;
+}
+
+.navbar-nav{
+    margin-left: 300px;
+}
+#bar .navbar-nav{
+    margin-left: 150px;
+}
+header figcaption{
+    /*  position: relative;*/
+    bottom: 54px;
+    left:100px;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.logo> .navbar-nav{
+    margin-top: 16px;
+}
+
+.logo> .navbar-nav >li{
+    padding-right: 10px;
+
+}
+
+.navbar-nav > li > a {
+    padding-top: 2px;
+    padding-bottom: 0px;
+}
+.logo> figure{
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a{
+    color: #ffffff;
+    background-color: transparent;
+    border-bottom: 1px solid #f8e1b4;
+    padding: 0 0 0 0;
+}
+
+
+#bar ul a{
+    color: #FFFFFF;
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+#bar ul a .hover:{
+    color: #c96c21;
+}
+#bar ul {
+    border: 1px solid #FFFFFF;
+    padding-bottom: 9px;
+    border-radius: 4px;
+}
+
+
+#searchBox{
+    width: 300px;
+    float: right;
+}
+
+/*
+Bike Section Starts*/
+#bike .container{
+    background-image:url("../img/layer6.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+#bike .container .row h4{
+    color: #f4f4f4;
+    font-size: 20px;
+    text-align: center;
+
+
+
+}
+
+#bike .container .row p{
+    color: #f4f4f4;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*Products Section Starts*/
+
+
+/*section{*/
+    /*padding: 40px;*/
+    /*padding-bottom: 65px;*/
+/*}*/
+
+#contact{
+    background-color:#fffcf4 ;
+
+}
+
+
+
+#container > h2{
+    color: #e37820;
+}
+
+#message{
+    background-color: #f8eee1;
+}
+
+.btn-default{
+    float: right;
+}
+/* Ecommerce section stars */
+
+#ecommerce{
+    background-color: #363636;
+}
+
+#ecommerce img{
+    padding: 70px 500px;
+}
+
+#ecommerce figure p{
+    font-size: 6px;
+    color: #fff;
+    padding: 70px 540px;
+    margin: 0;
+}
+#ecommerce > ul > li > i{
+    color: #737373;
+
+}
+
+#ecommerce > ul{
+    display: inline;
+    float: right;
+
+}
+#ecommerce p{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+#ecommerce h2{
+    color: #fff;
+    font-size: 20px;
+    float: left;
+
+}
+#ecommerce .col-md-4 p{
+    font-size: 17px;
+
+}
+#ecommerce .col-md-2 p{
+    font-size: 17px;
+    float: left;
+}
+
+#subscribe{
+    width: 500px;
+    float: right;
+    padding-left: 150px;
+}
+#subscribe > .input-group> .form-control{
+    background-color: transparent;
+}
+#subscribe .btn-default{
+    color: #f07e1d;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #151515;
+}
+footer p{
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 120px ;
+}
+footer p >span{
+    color: #f07e1d;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url(font-awesome.min.css);
+
+
+/*Style for Header*/
+
+/*body { padding-top: 70px; }*/
+
+body{
+    font-size: 8px;
+    padding-top: 5px;
+}
+header .navbar-default {
+    background-color: #2c2c2c;
+    border-color: transparent;
+}
+.navbar-nav{
+    margin-left: 300px;
+}
+#home .navbar-nav{
+    margin-left: 150px;
+}
+header figcaption{
+    /*  position: relative;*/
+    bottom: 54px;
+    left:100px;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.logo> .navbar-nav{
+    margin-top: 16px;
+}
+
+.logo> .navbar-nav >li{
+    padding-right: 10px;
+
+}
+
+.navbar-nav > li > a {
+    padding-top: 2px;
+    padding-bottom: 0px;
+}
+.logo> figure{
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a{
+    color: #ffffff;
+    background-color: transparent;
+    border-bottom: 1px solid #f8e1b4;
+    padding: 0 0 0 0;
+}
+
+.navbar-default .navbar-nav > .active > a:hover{
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #9c5825;
+
+    /* border-bottom: 2px solid #f8e1b4;*/
+}
+
+/*******2nd Navbar*****/
+#home ul a{
+    color: #FFFFFF;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#home ul {
+    border: 1px solid #FFFFFF;
+    padding-bottom: 9px;
+}
+#home .nav  > li > a:hover{
+    color: #9c5825;
+}
+
+
+#searchBox{
+    width: 300px;
+    float: right;
+}
+/*Global CSS*/
+
+h1, h2, h3, h4,  h6, p, figure{
+    margin: 0;
+}
+
+h5{
+    color: #787878;
+    background-color: #ffffff;
+    font-size: 42px;
+    /*  font-weight: bold;*/
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+h6{
+    color: #3b3b3b;
+    font-size: 30px;
+    /*font-weight: bold;*/
+    /*text-align: center;*/
+}
+
+/*
+Banner Section Starts*/
+#banner{
+    background-image:url("../img/layer2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 1600px;
+    height: 245px;
+
+}
+
+#banner a{
+    text-decoration: none;
+    font-size: 12.44px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#banner h1{
+    font-size: 24.49px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+#banner > div figure{
+    position: relative;
+    top: 120px;
+    right: -97px;
+}
+
+/*ProductsAccessories Section Starts*/
+#productsAccessories h4{
+    font-size: 18.93px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+#productsAccessories h5{
+    border-bottom: 1px solid #000;
+    color: #6b6b6b;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#productsAccessories h5>  p{
+    color: #6b6b6b;
+    font-size: 18px;
+}
+
+/*For Color*/
+body {
+    background: url(images/shadow.png);
+    background-attachment: fixed;
+}
+
+/* color-changer css */
+.color-changer {background: #eee; display: table;padding: 10px;margin: 0 auto;}
+.color-changer:hover{cursor:pointer;}
+.red,.purple,.yellow,.blue,.deeppink,.white{float: left;height: 20px;margin: 3px;width: 20px;}
+.red:hover,.purple:hover,.yellow:hover,.blue:hover,.deeppink:hover,.white:hover{opacity:0.8;}
+
+
+.red{background: red;}
+.purple{background: purple;}
+.yellow{background: yellow;}
+.blue{background: blue;}
+.deeppink{background: deeppink;}
+.white{background:white;border:1px solid #f1f1f1;}
+/*Color End*/
+
+#productsAccessories .container .row h2{
+    font-size: 36.18px;
+    font-weight: bold;
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+#productsAccessories  h3{
+    font-size: 18.53px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+#productsAccessories  p{
+    font-size: 12.04px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+#productsAccessories .container .row  .col-md-2 p:nth-child(11){
+    font-size: 17.21px;
+    font-weight: bold;
+    color: #e96767;
+    text-align: left;
+}
+
+#productsAccessories .container .row  .col-md-2 p:nth-child(13){
+    font-size: 17.21px;
+    font-weight: bold;
+    color: #e96767;
+    text-align: left;
+}
+
+#productsAccessories .container .row  .col-md-2 p:nth-child(15){
+    font-size: 17.21px;
+    font-weight: bold;
+    color: #e96767;
+    text-align: left;
+}
+
+#productsAccessories .container .row  .col-md-2 h6{
+    font-size: 21.05px;
+    font-weight: bold;
+    color: #6b6b6b;
+    text-align: left;
+}
+
+#productsAccessories .container .row  .col-md-2 figure a{
+    font-size: 10px;
+    font-weight: bold;
+    color: #6b6b6b;
+
+
+}
+
+#productsAccessories .container .row  .col-md-2 figure p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #001010;
+
+
+}
+#productsAccessories .container .row  .col-md-2 figure .glyphicon-star{
+    font-size: 10px;
+    font-weight: bold;
+    color: #de555f;
+    background-color: #FFFFFF;
+}
+
+#productsAccessories .container .row  .col-md-2 figure{
+    padding-top: 36px;
+}
+
+#productsAccessories .container .row  .col-md-2 #imgHover{
+    padding-top: 36px;
+}
+
+#imgHover figure{
+    position: relative;
+}
+#imgHover figcaption{
+    display: none;
+}
+
+#imgHover figure:hover figcaption {
+    display: block;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#productsAccessories #imgHover figure > figcaption > p{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-left: 5px;
+    text-align: center;
+}
+#productsAccessories .container .row  .col-md-2 .lastH{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#productsAccessories .container .row  .col-md-2 .lastP p{
+    color: #6b6b6b;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+/*Ecommerce Section Starts*/
+#ecommerce{
+    background-color: #363636;
+}
+#ecommerce .container .row figure{
+    float: left;
+    padding-top: 20px;
+    padding-left: 488px;
+}
+
+#ecommerce figure p{
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+#ecommerce .container .row .text {
+    padding-top: 135px;
+
+}
+
+#ecommerce .container .row .icon{
+    color: #fff;
+
+}
+
+#ecommerce .container .row .icon{
+    float: right;
+    padding-right: 180px;
+
+}
+#ecommerce p{
+    color: #fff;
+    text-align: center;
+}
+
+#ecommerce h2{
+    color: #fff;
+    font-size: 20px;
+    float: left;
+
+}
+#ecommerce .col-md-4 p{
+    font-size: 17px;
+
+}
+#ecommerce .col-md-2 p{
+    font-size: 17px;
+    float: left;
+}
+
+#subscribe{
+    width: 500px;
+}
+
+#subscribe > .input-group> .form-control{
+    background-color: transparent;
+}
+#subscribe .btn-default{
+    color: #f07e1d;
+    background-color: transparent;
+}
+/*
+Footer Section Starts*/
+footer{
+    background-color: #151515;
+}
+
+footer p{
+    color: #fff;
+    padding: 20px 120px ;
+}
+
+footer p >span{
+    color: #f07e1d;
+}
+footer{
+    position: relative;
+}
+footer .img{
+    position: absolute;
+    top: 5px;
+    right: 285px;
+    /* float: right;
+     padding-top: 5px;*/
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url(font-awesome.min.css);
+/*
+QUISQUE IN ARCU  Section Starts*/
+
+#quisque .col-md-6{
+    margin: 0;
+}
+
+#quisque .container .row .col-md-8 >span{
+  color: #f5c520;
+}
+
+#quisque .container .row .col-md-8 >span:nth-child(7){
+    color: #c2c2c2;
+}
+#quisque .container .row .ins{
+    font-size: 23px;
+    font-weight: bold;
+    color: #f37133;
+}
+
+#quisque .container .row .stock{
+    color: #f5697d;
+}
+
+/*Global Button(White)*/
+#quisque .container .row .col-md-8> a{
+    text-decoration: none;
+}
+
+.transparent_btn{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    padding: 10px 12px;
+    border-radius: 4px;
+
+    cursor: pointer;
+    transition: background-color ease 400ms;
+
+}
+
+
+/*Orange Button*/
+.transparent_btn.orange{
+    color: #FFF;
+    background-color: #f3743d;
+}
+
+.blue{
+
+    color: #9ad3fd;
+    border-color: #9ad3fd;
+    background-color: #475fb7;
+    font-size: 14px;
+    line-height: 120%;
+    border: 1px solid #FFF;
+    width: 50px;
+    padding: 10px 12px;
+    border-radius: 4px;
+
+    cursor: pointer;
+    transition: background-color ease 400ms;
+}
+#quisque .container .row .shadow{
+    font-size: 23px;
+    font-weight: bold;
+    color: #959595;
+}
+#quisque h1{
+    font-size:  30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+/*Paragraph  Section Starts*/
+#paragraph  .nav-tabs li > a{
+    color: #000;
+}
+
+#paragraph  p{
+   font-size: 18px;
+}
+/*Upsell Section Starts*/
+#upsell .container .row{
+    position: relative;
+
+}
+#upsell h4{
+    text-align: center;
+    font-size: 16.13px;
+    position: absolute;
+    top: -9px;
+    left: 507px;
+
+}
+#upsell h5{
+    text-align: center;
+    font-size: 11.9px;
+
+}
+
+#upsell p{
+    text-align: center;
+    font-size: 11.77px;
+    color: orange;
+    margin: 0;
+
+}
+
+#upsell .transparent_btn{
+    display: inline-block;
+    font-size: 10.57px;
+    line-height: 120%;
+    color: #71aba2;
+    background-color: #d7d7d7;
+    border: 1px solid #FFF;
+    padding: 12px 34px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color ease 400ms;
+}
+
+#upsell .container .row .btn{
+    float: left;
+    padding-left: 64px;
+    padding-top: 0px;
+}
+
+/*Related Section Starts*/
+#related .container .row{
+    position: relative;
+
+}
+
+#related h4{
+    text-align: center;
+    font-size: 16.13px;
+    position: absolute;
+    top: -9px;
+    left: 507px;
+}
+#related h5{
+    text-align: center;
+    font-size: 11.9px;
+
+}
+
+#related p{
+    text-align: center;
+    font-size: 11.77px;
+    color: orange;
+    margin: 0;
+
+}
+
+#related .transparent_btn{
+    display: inline-block;
+    font-size: 10.57px;
+    line-height: 120%;
+    color: #71aba2;
+    background-color: #d7d7d7;
+    border: 1px solid #FFF;
+    padding: 12px 34px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color ease 400ms;
+}
+
+#related .container .row .btn{
+    float: left;
+    padding-left: 64px;
+    padding-top: 0px;
+}
+
+/*Ecommerce Section Starts*/
+#ecommerce{
+    background-color: #363636;
+}
+#ecommerce .container .row figure{
+    float: left;
+    padding-top: 20px;
+    padding-left: 488px;
+}
+
+#ecommerce figure p{
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+#ecommerce .container .row .text {
+    padding-top: 135px;
+
+}
+
+#ecommerce .container .row .icon{
+    color: #fff;
+
+}
+
+#ecommerce .container .row .icon{
+    float: right;
+    padding-right: 180px;
+
+}
+#ecommerce p{
+    color: #fff;
+    text-align: center;
+}
+
+#ecommerce h2{
+    color: #fff;
+    font-size: 20px;
+    float: left;
+
+}
+#ecommerce .col-md-4 p{
+    font-size: 17px;
+
+}
+#ecommerce .col-md-2 p{
+    font-size: 17px;
+    float: left;
+}
+
+#subscribe{
+    width: 500px;
+}
+
+#subscribe > .input-group> .form-control{
+    background-color: transparent;
+}
+#subscribe .btn-default{
+    color: #f07e1d;
+    background-color: transparent;
+}
+/*
+Footer Section Starts*/
+footer{
+    background-color: #151515;
+}
+
+footer p{
+    color: #fff;
+    padding: 20px 120px ;
+}
+
+footer p >span{
+    color: #f07e1d;
+}
+footer{
+    position: relative;
+}
+footer .img{
+    position: absolute;
+    top: 5px;
+    right: 285px;
+    /* float: right;
+     padding-top: 5px;*/
+}
+
+
+

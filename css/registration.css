@@ -1,0 +1,151 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url(font-awesome.min.css);
+
+
+/*Style for Header*/
+
+/*body { padding-top: 70px; }*/
+
+
+
+
+/*
+Registration Section Starts*/
+
+
+
+#registration h1{
+    background-color: #fffcf4;
+   font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 45px;
+}
+
+#registration .container{
+    background-color: #f8eee1;
+    padding: 30px 100px 15px;
+    border: 1px solid #e3e3e3;
+}
+
+
+#registration .btn-default {
+    color: #383839;
+    background-color: #f9ad81;
+    border-color: transparent;
+}
+
+/*Global Button(White)*/
+#registration .container .row .button{
+    float: left;
+    padding-left: 500px;
+}
+
+.transparent_btn{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 180%;
+    color: #000;
+    background-color: #f9ad81;
+    border: 1px solid #FFF;
+    padding: 20px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color ease 400ms;
+}
+
+.transparent_btn:hover{
+    color: #001010;
+    background-color: rgba(255, 255, 255, 0.3)
+
+}
+
+
+
+/*Ecommerce Section Starts*/
+#ecommerce{
+    background-color: #363636;
+}
+#ecommerce .container .row figure{
+    float: left;
+    padding-top: 20px;
+    padding-left: 488px;
+}
+
+#ecommerce figure p{
+    font-size: 14px;
+     color: #fff;
+      margin: 0;
+}
+#ecommerce .container .row .text {
+    padding-top: 135px;
+
+}
+
+#ecommerce .container .row .icon{
+    color: #fff;
+
+}
+
+#ecommerce .container .row .icon{
+    float: right;
+    padding-right: 180px;
+
+}
+#ecommerce p{
+    color: #fff;
+    text-align: center;
+}
+
+#ecommerce h2{
+      color: #fff;
+      font-size: 20px;
+      float: left;
+
+  }
+#ecommerce .col-md-4 p{
+    font-size: 17px;
+
+}
+#ecommerce .col-md-2 p{
+    font-size: 17px;
+    float: left;
+}
+
+#subscribe{
+    width: 500px;
+}
+
+#subscribe > .input-group> .form-control{
+    background-color: transparent;
+}
+#subscribe .btn-default{
+    color: #f07e1d;
+    background-color: transparent;
+}
+/*
+Footer Section Starts*/
+footer{
+    background-color: #151515;
+}
+
+footer p{
+ color: #fff;
+    padding: 20px 120px ;
+}
+
+footer p >span{
+    color: #f07e1d;
+}
+footer{
+    position: relative;
+}
+footer .img{
+    position: absolute;
+    top: 5px;
+    right: 285px;
+   /* float: right;
+    padding-top: 5px;*/
+}
